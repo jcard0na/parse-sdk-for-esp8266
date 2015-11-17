@@ -3,6 +3,10 @@
 
    /Library/Arduino15/packages/esp8266/hardware/esp8266/1.6.5-1160-gef26c5f/libraries
 
+   or your Arduino directory
+
+   Arduino/libraries
+
 2. Relaunch Arduino
 
 3. Try to run the example
