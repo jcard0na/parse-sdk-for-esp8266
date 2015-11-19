@@ -204,6 +204,7 @@ ParseResponse ParseClient::sendRequest(const String& httpVerb, const String& htt
 
   while(!(connected = client.connect(PARSE_API, SSL_PORT)) && retry--) {
     Serial.printf("connecting...%d\n", retry);
+    yield();
   }
 
   if (connected) {
